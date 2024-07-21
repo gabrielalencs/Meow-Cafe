@@ -14,10 +14,6 @@
         @apply text-lg font-semibold cursor-pointer lg:text-xl;
     }
 
-    .navLinkAfter {
-        @apply after:content-[''] after:block after:h-0.5 after:rounded-lg after:bg-brown-primary after:w-0 after:duration-300;
-    }
-
     .hiddenMenuMobile {
         @apply h-0 overflow-hidden p-0;
     }
@@ -31,6 +27,10 @@
 body {
     background-color: #f7f2e8;
 }
+
+
+
+
 
 
 /* Menu Hamburger */
