@@ -33,7 +33,7 @@ const Header = () => {
                 <span className='hidden m-[-40] text-xl font-bold sm:inline'>Meow Café</span>
             </div>
 
-            <div className='inline-block lg:hidden'>
+            <div className='inline-block relative z-10 lg:hidden'>
                 <label className="hamburger" >
                     <input type="checkbox" checked={menuVisible} onChange={handleMenuMobileClick} />
 
@@ -44,7 +44,7 @@ const Header = () => {
                 </label>
             </div>
 
-            <nav className={`absolute right-10 top-36 bg-rose-primay rounded-b-xl duration-500 ${menuVisible ? 'showMenuMobile' : 'hiddenMenuMobile'} lg:bg-transparent lg:duration-0 lg:h-max lg:static lg:flex lg:items-center lg:gap-20`}>
+            <nav className={`absolute right-10 top-36 p-7 z-0 bg-rose-primay rounded-xl duration-700 ${menuVisible ? 'showMenuMobile' : 'hiddenMenuMobile'} lg:bg-transparent lg:duration-0 lg:h-max lg:static lg:flex lg:items-center lg:gap-20`}>
                 <ul className='flex flex-col gap-4 text-center lg:flex-row lg:gap-14'>
                     <li className='navLink navLinkAfter hover:after:w-full'>Início</li>
                     <li className='navLink navLinkAfter hover:after:w-full'>Produtos</li>

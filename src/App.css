@@ -6,6 +6,10 @@
 
 
 @layer components {
+    .navMobileContainer {
+        @apply ;
+    }
+
     .btnHeader {
         @apply p-3 px-5 bg-brown-primary rounded-3xl text-white font-semibold mt-7 lg:mt-0 lg:text-xl lg:px-8;
     }
@@ -19,11 +23,11 @@
     }
 
     .hiddenMenuMobile {
-        @apply h-0 overflow-hidden p-0;
+        @apply translate-y-[-50] opacity-0;
     }
 
     .showMenuMobile {
-        @apply p-7 h-max overflow-visible;
+        @apply translate-y-0 opacity-100;
     }
 }
 
