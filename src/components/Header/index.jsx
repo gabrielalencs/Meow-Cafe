@@ -44,7 +44,7 @@ const Header = () => {
                 </label>
             </div>
 
-            <nav className={`absolute right-10 top-36 p-7 z-0 bg-rose-primay rounded-xl duration-700 ${menuVisible ? 'showMenuMobile' : 'hiddenMenuMobile'} lg:bg-transparent lg:duration-0 lg:h-max lg:static lg:flex lg:items-center lg:gap-20`}>
+            <nav className={`containerMobileMenu ${menuVisible ? 'showMenuMobile' : 'hiddenMenuMobile'} lg:containerDesktopMenu`}>
                 <ul className='flex flex-col gap-4 text-center lg:flex-row lg:gap-14'>
                     <li className='navLink navLinkAfter hover:after:w-full'>Início</li>
                     <li className='navLink navLinkAfter hover:after:w-full'>Produtos</li>

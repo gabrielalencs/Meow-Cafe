@@ -6,8 +6,12 @@
 
 
 @layer components {
-    .navMobileContainer {
-        @apply ;
+    .containerMobileMenu {
+        @apply absolute right-10 top-36 p-7 z-0 bg-rose-primay rounded-xl duration-700;
+    }
+
+    .containerDesktopMenu {
+        @apply bg-transparent duration-0 h-max static flex items-center gap-20 translate-y-0 opacity-100;
     }
 
     .btnHeader {
