@@ -19,7 +19,7 @@
     }
 
     .navLink {
-        @apply text-lg font-semibold cursor-pointer lg:text-xl;
+        @apply text-lg text-brown-primary font-medium cursor-pointer lg:text-xl;
     }
 
     .navLinkAfter {
@@ -38,6 +38,17 @@
 
 body {
     background-color: #f7f2e8;
+    font-family: "Poppins", sans-serif;
+    background-image: url('./assets/images/titulo-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 0 80%;
+    
+}
+@media (width >= 768px) {
+    body {
+        background-size: 100%;
+    }
 }
 
 
