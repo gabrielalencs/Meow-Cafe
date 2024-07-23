@@ -51,7 +51,7 @@ const Header = () => {
                     <li className='navLink navLinkAfter hover:after:w-full'>Sobre</li>
                 </ul>
 
-                <Button text='Delivery' classe='btnHeader' />
+                <Button sizeText='text-md lg:text-lg lg:mt-0' bgColor='bg-brown-primary' textColor='text-white' />
             </nav>
         </header>
     )

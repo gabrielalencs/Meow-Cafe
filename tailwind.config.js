@@ -20,6 +20,12 @@ export default {
                 '525': '525px',
                 '[-260]': '-260px',
                 '[-50]': '-50px',
+                '360': '360px',
+            },
+            backgroundImage: {
+                'gradient-pink': 'linear-gradient(to bottom left, #f6c7c5, #c27d7a)',
+                'gradient-light-brown': 'linear-gradient(to bottom left, #fafafa, #541511)',
+                'gradient-dark-brown': 'linear-gradient(to bottom left, #0a0909, #541511)'
             }
         },
     },
