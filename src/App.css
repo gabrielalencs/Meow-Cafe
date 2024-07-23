@@ -41,14 +41,20 @@ body {
     font-family: "Poppins", sans-serif;
     background-image: url('./assets/images/titulo-bg.svg');
     background-repeat: no-repeat;
-    background-size: 300%;
-    background-position: 0 80%;
+    background-size: 400%;
+    background-position: 0 15%;
 
 }
 
 @media (width >=768px) {
     body {
         background-size: 100%;
+    }
+}
+
+@media (width >= 1024px) {
+    body {
+        background-position: 0 50%;
     }
 }
 

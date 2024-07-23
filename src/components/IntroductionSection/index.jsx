@@ -1,4 +1,3 @@
-import React from 'react';
 import imageHero from '../../assets/images/header-bg.svg';
 
 const IntroductionSection = () => {

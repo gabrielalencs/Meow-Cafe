@@ -1,6 +1,7 @@
-import React, { useRef } from 'react'
+import React from 'react'
 
 import headerLogo from '../../assets/images/cat-logo-header.svg';
+
 import Button from '../Button';
 
 const Header = () => {
