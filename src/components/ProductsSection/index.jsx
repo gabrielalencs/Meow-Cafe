@@ -5,7 +5,6 @@ import imageCoffeBlack from '../../assets/images/black.svg';
 import Button from '../Button';
 
 const ProductsSection = () => {
-
     const productInformation = [
         {
             src: imageCapuccino,
@@ -28,7 +27,7 @@ const ProductsSection = () => {
             description: 'Grãos selecionados feitos no seu método de preparo favorito.',
             gradient: 'bg-gradient-dark-brown'
         }
-    ]
+    ];
 
     return (
         <section className='mt-32 px-8 lg:mt-56'>
@@ -51,13 +50,11 @@ const ProductsSection = () => {
                             <span className='font-semibold text-xl'>{product.price}</span>
                             <h2 className='font-semibold text-3xl mt-2'>{product.title}</h2>
                             <p className='mt-3'>{product.description}</p>
-
                             <Button sizeText='text-xl' bgColor='bg-white' textColor='text-brown-primary' />
                         </div>
                     </div>
                 ))}
             </div>
-            
         </section>
     )
 }

@@ -24,6 +24,7 @@ export default {
             },
             backgroundImage: {
                 'gradient-pink': 'linear-gradient(to bottom left, #f6c7c5, #c27d7a)',
+                'gradient-pink-delivery': 'linear-gradient(to bottom left, #f3c7c4, #541511)',
                 'gradient-light-brown': 'linear-gradient(to bottom left, #fafafa, #541511)',
                 'gradient-dark-brown': 'linear-gradient(to bottom left, #0a0909, #541511)'
             }

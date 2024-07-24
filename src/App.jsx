@@ -1,5 +1,6 @@
 import './App.css';
 import CroissantsSection from './components/CroissantsSection';
+import DeliverySection from './components/DeliverySection';
 import Header from './components/Header';
 import IntroductionSection from './components/IntroductionSection';
 import ProductsSection from './components/ProductsSection';
@@ -13,6 +14,7 @@ function App() {
                 <IntroductionSection />
                 <ProductsSection />
                 <CroissantsSection />
+                <DeliverySection />
             </main>
         </>
     )
