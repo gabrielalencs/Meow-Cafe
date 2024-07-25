@@ -21,6 +21,7 @@ export default {
                 '[-260]': '-260px',
                 '[-50]': '-50px',
                 '360': '360px',
+                '748': '748px',
             },
             backgroundImage: {
                 'gradient-pink': 'linear-gradient(to bottom left, #f6c7c5, #c27d7a)',
