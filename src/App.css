@@ -35,10 +35,12 @@
     }
 }
 
+* {
+    font-family: "Poppins", sans-serif;
+}
 
 body {
     background-color: #f7f2e8;
-    font-family: "Poppins", sans-serif;
     background-image: url('./assets/images/titulo-bg.svg');
     background-repeat: no-repeat;
     background-size: 400%;
