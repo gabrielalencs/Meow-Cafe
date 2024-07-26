@@ -1,11 +1,12 @@
 import './App.css';
 
-import AboutSection from './components/AboutSection';
-import CroissantsSection from './components/CroissantsSection';
-import DeliverySection from './components/DeliverySection';
 import Header from './components/Header';
 import IntroductionSection from './components/IntroductionSection';
 import ProductsSection from './components/ProductsSection';
+import CroissantsSection from './components/CroissantsSection';
+import DeliverySection from './components/DeliverySection';
+import AboutSection from './components/AboutSection';
+import LocationSection from './components/LocationSection';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 <CroissantsSection />
                 <DeliverySection />
                 <AboutSection />
+                <LocationSection />
             </main>
         </>
     )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSection = () => {
     return (
-        <section className='mt-28 mb-96 px-8 text-center text-brown-primary lg:flex lg:justify-between lg:text-left lg:gap-28 xl:gap-20'>
+        <section className='mt-28 px-8 text-center text-brown-primary lg:flex lg:justify-between lg:text-left lg:gap-28 lg:mt-40 xl:gap-20'>
             <div className='max-w-748 mx-auto lg:max-w-full lg:flex-1'>
                 <span className='hidden lg:block lg:font-medium lg:text-lg'>Sobre nós</span>
                 <h2 className='text-xl font-semibold md:text-2xl lg:text-4xl'>Nós oferecemos uma experiência inesquecível para amantes de café e pais de pet!</h2>
