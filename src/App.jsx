@@ -7,6 +7,7 @@ import CroissantsSection from './components/CroissantsSection';
 import DeliverySection from './components/DeliverySection';
 import AboutSection from './components/AboutSection';
 import LocationSection from './components/LocationSection';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <DeliverySection />
                 <AboutSection />
                 <LocationSection />
+                <Footer />
             </main>
         </>
     )

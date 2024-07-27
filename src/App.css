@@ -57,14 +57,13 @@ body {
 @media (width >= 1024px) {
     body {
         background-image: url('./assets/images/titulo-bg.svg'), url('assets/images/about-bg.svg');
-        background-position: 0 40%, 0 90%;
+        background-position: 0 15%, 0 70%;
     }
 }
 
 @media (width >= 1280px) {
     body {
         background-image: url('./assets/images/titulo-bg.svg'), url('assets/images/about-bg.svg');
-        background-position: 0 40%, 0 95%;
     }
 }
 
