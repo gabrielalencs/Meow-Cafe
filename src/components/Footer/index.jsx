@@ -19,16 +19,16 @@ const Footer = () => {
                 <h3 className='text-black text-xl font-semibold'>Links Úteis</h3>
                 <ul className='flex flex-col gap-3 mt-5'>
                     <li>
-                        <a href="#">Inicio</a>
+                        <a href="#introduction">Inicio</a>
                     </li>
                     <li>
-                        <a href="#">Produtos</a>
+                        <a href="#products">Produtos</a>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#delivery">Delivery</a>
                     </li>
                     <li>
-                        <a href="#">Delivery</a>
+                        <a href="#about">Sobre</a>
                     </li>
                 </ul>
             </div>

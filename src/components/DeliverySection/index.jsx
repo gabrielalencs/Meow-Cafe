@@ -4,7 +4,7 @@ import Button from '../Button';
 
 const DeliverySection = () => {
     return (
-        <section className='mt-20 mx-8 px-11 py-10 bg-gradient-pink-delivery rounded-3xl lg:flex lg:flex-row-reverse lg:items-center lg:justify-between lg:py-0 lg:mt-48'>
+        <section className='mt-20 mx-8 px-11 py-10 bg-gradient-pink-delivery rounded-3xl lg:flex lg:flex-row-reverse lg:items-center lg:justify-between lg:py-0 lg:mt-48' id='delivery'>
             <div className='text-center lg:text-right'>
                 <h2 className='text-white text-3xl font-semibold md:text-5xl'>Levamos até você!</h2>
                 <p className='text-white mt-3 md:text-lg'>Estamos nos principais aplicativos de Delivery!</p>

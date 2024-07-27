@@ -39,6 +39,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f7f2e8;
     background-image: url('./assets/images/titulo-bg.svg');

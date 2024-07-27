@@ -30,7 +30,7 @@ const ProductsSection = () => {
     ];
 
     return (
-        <section className='mt-32 px-8 lg:mt-56'>
+        <section className='mt-32 px-8 lg:mt-56' id='products'>
             <div className='text-brown-primary max-w-525 lg:text-center lg:mx-auto'>
                 <h2 className='w-max text-4xl font-bold after:content-[""] after:block after:h-px after:w-9/12 after:relative after:top-2 after:mx-auto after:bg-brown-primary lg:mx-auto lg:text-5xl'>Cafés</h2>
                 <p className='mt-7 md:text-lg'>

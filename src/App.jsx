@@ -8,6 +8,7 @@ import DeliverySection from './components/DeliverySection';
 import AboutSection from './components/AboutSection';
 import LocationSection from './components/LocationSection';
 import Footer from './components/Footer';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
                 <AboutSection />
                 <LocationSection />
                 <Footer />
+                <ScrollToTopButton />
             </main>
         </>
     )
