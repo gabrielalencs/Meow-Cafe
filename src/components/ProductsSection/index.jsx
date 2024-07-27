@@ -38,7 +38,6 @@ const ProductsSection = () => {
                 </p>
             </div>
             
-            
             <div className='mt-14 flex flex-col gap-14 lg:gap-10 lg:flex-row'>
                 {productInformation.map((product, key) => (
                     <div className={`max-w-360 rounded-3xl flex flex-col justify-end text-center p-8 text-white ${product.gradient} sm:mx-auto`} key={key}>

@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className='px-8 my-28 text-brown-primary border-t-2 border-x-neutral-300 pt-16 grid gap-10 md:text-lg md:grid-cols-3 lg:mt-44'>
+        <footer className='px-8 my-28 text-brown-primary border-t-2 border-x-neutral-300 pt-16 grid gap-10 md:text-lg md:grid-cols-3 lg:mt-36'>
             <div>
                 <h3 className='text-black text-xl font-semibold'>Informações</h3>
 
