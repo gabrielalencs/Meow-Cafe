@@ -4,7 +4,6 @@
 
 @tailwind utilities;
 
-
 @layer components {
     .containerMobileMenu {
         @apply absolute right-10 top-36 p-7 z-0 bg-rose-primay rounded-xl duration-700 lg:hidden;
@@ -35,6 +34,9 @@
     }
 }
 
+
+/* page background image styles */
+
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -62,7 +64,7 @@ body {
 }
 
 
-/* Menu Hamburger */
+/* menu hamburger */
 
 .hamburger {
     cursor: pointer;
