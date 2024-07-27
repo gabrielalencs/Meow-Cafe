@@ -37,14 +37,14 @@ const ProductsSection = () => {
                     Conheça nossos cafés exclusivos pensados e preparados por nossos baristas renomados.
                 </p>
             </div>
-            
+
             <div className='mt-14 flex flex-col gap-14 md:gap-10 md:flex-row md:flex-wrap min-[824px]:justify-center lg:flex-nowrap'>
                 {productInformation.map((product, key) => (
                     <div className={`max-w-360 rounded-3xl flex flex-col justify-end text-center p-8 text-white ${product.gradient}`} key={key}>
                         <div>
                             <img src={product.src} alt="imagem de uma xíraca de café" />
                         </div>
-                        
+
                         <div className='mt-3'>
                             <span className='font-semibold text-xl'>{product.price}</span>
                             <h2 className='font-semibold text-3xl mt-2'>{product.title}</h2>

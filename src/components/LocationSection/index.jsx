@@ -1,6 +1,6 @@
 import React from 'react';
 
-import coffeImage from '../../assets/images/location-bg.svg'
+import coffeImage from '../../assets/images/location-bg.svg';
 import iconLocation from '../../assets/images/location-logo.svg';
 
 const LocationSection = () => {
@@ -23,7 +23,6 @@ const LocationSection = () => {
                     <img src={iconLocation} alt="icone de localização" />
                     <span>Rua do Miado 234, Gatolândia</span>
                 </p>
-
             </div>
         </section>
     )

@@ -6,7 +6,6 @@ import Button from '../Button';
 import NavigationLinks from '../NavigationLinks';
 
 const Header = () => {
-
     const [menuVisible, setMenuVisible] = useState(false);
 
     const handleMenuMobileClick = useCallback(() => {
