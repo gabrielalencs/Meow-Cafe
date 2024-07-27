@@ -7,11 +7,11 @@
 
 @layer components {
     .containerMobileMenu {
-        @apply absolute right-10 top-36 p-7 z-0 bg-rose-primay rounded-xl duration-700;
+        @apply absolute right-10 top-36 p-7 z-0 bg-rose-primay rounded-xl duration-700 lg:hidden;
     }
 
     .containerDesktopMenu {
-        @apply bg-transparent duration-0 h-max static flex items-center gap-20 translate-y-0 opacity-100;
+        @apply bg-transparent duration-0 h-max static items-center gap-20 translate-y-0 opacity-100 hidden lg:flex;
     }
 
     .btnHeader {
@@ -19,7 +19,7 @@
     }
 
     .navLink {
-        @apply text-lg text-brown-primary font-medium cursor-pointer lg:text-xl;
+        @apply text-lg text-brown-primary font-medium w-max mx-auto cursor-pointer lg:text-xl;
     }
 
     .navLinkAfter {
@@ -58,12 +58,6 @@ body {
     body {
         background-image: url('./assets/images/titulo-bg.svg'), url('assets/images/about-bg.svg');
         background-position: 0 15%, 0 70%;
-    }
-}
-
-@media (width >= 1280px) {
-    body {
-        background-image: url('./assets/images/titulo-bg.svg'), url('assets/images/about-bg.svg');
     }
 }
 
