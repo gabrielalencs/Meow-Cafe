@@ -22,9 +22,9 @@ function App() {
                 <DeliverySection />
                 <AboutSection />
                 <LocationSection />
-                <Footer />
                 <ScrollToTopButton />
             </main>
+            <Footer />
         </>
     )
 }
