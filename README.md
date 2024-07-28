@@ -15,10 +15,10 @@
 <h2>🚀 Rodando Localmente</h2>
 <p>Para executar o projeto, siga-os passos abaixo:</p>
 
-<h3>Clonando o projeto</h3>
+<h3>Clone o projeto</h3>
 <pre>git clone https://github.com/gabrielalencs/Meow-Cafe.git</pre>
 
-<h3>Instalando as dependências</h3>
+<h3>Instale as dependências</h3>
 <pre>npm install</pre>
 
 <h3>Execute a aplicação</h3>
