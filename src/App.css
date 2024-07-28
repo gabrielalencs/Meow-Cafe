@@ -8,7 +8,7 @@
     }
 
     .containerDesktopMenu {
-        @apply bg-transparent duration-0 h-max static items-center gap-20 translate-y-0 opacity-100 hidden lg:flex;
+        @apply bg-transparent duration-0 h-max static items-center translate-y-0 gap-52 opacity-100 hidden lg:flex xl:gap-96;
     }
 
     .btnHeader {

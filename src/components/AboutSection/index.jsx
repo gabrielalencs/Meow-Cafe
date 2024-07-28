@@ -8,7 +8,7 @@ const AboutSection = () => {
                 <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Nós oferecemos uma experiência inesquecível para amantes de café e pais de pet!</h2>
             </div>
 
-            <div className='mt-6 text-left max-w-748 mx-auto lg:max-w-full lg:flex-1 lg:pr-24'>
+            <div className='mt-6 text-left max-w-748 mx-auto lg:max-w-full lg:flex-1 lg:pr-40'>
                 <span className='text-md font-semibold md:text-lg lg:text-xl'>O melhor lugar para apreciar o seu café</span>
                 <p className='mt-5 md:text-lg'>
                     No Meow Cafe, priorizamos a criação de um espaço onde tanto os seres humanos quanto seus animais de estimação possam relaxar e desfrutar.
