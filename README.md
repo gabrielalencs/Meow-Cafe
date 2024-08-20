@@ -28,7 +28,6 @@
 <p>Para o deploy do projeto, utilizei a <b>Vercel</b>. Você pode visualizar a página <a href="https://meow-cafe-company.vercel.app/">Clicando Aqui</a>.</p>
 
 <br>
-<br>
 
 <div align="center">
   <p>Desenvolvido com 🤎 por <b>Gabriel de Alencar</b></p>
